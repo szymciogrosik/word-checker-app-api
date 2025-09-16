@@ -22,8 +22,8 @@ gcloud run deploy scrabble-search \
 --platform managed \
 --allow-unauthenticated
 
-https://scrabble-search-255717563537.europe-central2.run.app/exact?q=test
-https://scrabble-search-255717563537.europe-central2.run.app/pattern?pattern=a??e
+https://APP.europe-central2.run.app/exact?q=test
+https://APP.europe-central2.run.app/pattern?pattern=a??e
 
 gcloud run services update scrabble-search \
 --max-instances=1
