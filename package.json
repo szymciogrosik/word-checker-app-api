@@ -1,5 +1,5 @@
 {
-  "name": "scrabble-search",
+  "name": "scrabble-search-v2",
   "version": "1.0.0",
   "main": "app.js",
   "dependencies": {

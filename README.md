@@ -17,7 +17,7 @@ Uploading to the G-Cloud:
 gcloud auth login
 
 Deploy app:
-gcloud run deploy scrabble-search \
+gcloud run deploy scrabble-search-v2 \
 --source . \
 --region europe-central2 \
 --platform managed \
@@ -27,10 +27,12 @@ https://APP.europe-central2.run.app/exact?q=test
 https://APP.europe-central2.run.app/pattern?pattern=a??e
 
 Set max instances to 1:
-gcloud run services update scrabble-search \
+gcloud run services update scrabble-search-v2 \
 --max-instances=1
 
 Remove all:
 gcloud run services delete scrabble-search \
 --region europe-central2 \
 --platform managed
+
+Update scrabble-search to next version f.e. scrabble-search-api-version-5.
